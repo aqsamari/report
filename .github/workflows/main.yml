@@ -41,4 +41,4 @@ jobs:
 
   
     - name: deploying on surge 
-      run: surge./pro1 ./build http://feeble-bootcamp.surge.sh/ --token ${{secretes.SURGE_TOKEN}}
+      run: surge./report ./build http://feeble-bootcamp.surge.sh/ --token ${{secretes.SURGE_TOKEN}}
